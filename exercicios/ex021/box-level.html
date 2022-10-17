@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando box-level</title>
+    <style>
+        h1{
+            background-color: gray;
+            height: 300px;
+            width: 300px;
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;*/
+
+            /*a linha abaixo substitui os três comandos acima*/
+            border: 10px solid darkslategray;
+
+            /*
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;   */
+
+            /*a linha abaixo substitui as linhas acima, poderia ser também padding 10px*/
+            padding: 10px 10px 10px 10px;
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;  */
+            margin: 10px auto 10px auto;  
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-offset: ;outline-color: aquamarine;*/
+            outline: 5px dashed aquamarine;
+        }
+        span{
+            
+            border-width: 2px;
+            border-color: red;
+            border-style: dashed;
+            padding: 2px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Parametrizando caixa box-level</h1>
+    <p>Frase teste para <a href="#">link do site curso em vídeo</a> <span>para treinar inline-level</span></p>
+</body>
+</html>
