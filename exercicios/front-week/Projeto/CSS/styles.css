@@ -292,3 +292,40 @@ i{
 .data .text{
     text-transform: uppercase;
 }
+
+/*Depoimentos*/
+
+#testimonials{
+    display: flex;
+    align-items: center;
+}
+
+#testimonial-information{
+    padding: 3rem;
+}
+
+#testimoninal-information .author{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author .author-name{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.author .author-job{
+    color: var(--secondary-text-color);
+    font-weight: bold;
+}
+
+.author img{
+    width: 100px;
+    height: 100px;
+}
