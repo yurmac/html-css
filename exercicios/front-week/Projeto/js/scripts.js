@@ -76,3 +76,6 @@ allLinks.forEach((link) =>{
 closeMenuBtn.addEventListener("click", (e) =>{
     menu.classList.remove("menu-active");
 });*/
+
+/*Inicialização */
+showSlides();
