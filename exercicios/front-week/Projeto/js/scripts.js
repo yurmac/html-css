@@ -15,15 +15,16 @@ let slideIndex = 0;
 
 //Funções
 
-function smoothScroll(e){
+function smoothScroll(e) {
     e.preventDefault();
     const href = this.getAttribute("href");
     const offsetTop = document.querySelector(href).offsetTop;
 
-    scroll({
-        top: offsetTop,
-        behavior: "smooth",
-    });
+    
+scroll({
+    top: offsetTop,
+    behavior: "smooth",
+});
 
     setTimeout(() => {
         if(menu.classList.contains("menu-active")){
