@@ -105,8 +105,8 @@ i{
     background-color: var(--main-color);
     position: absolute;
     z-index: 1;
-    left: 20;
-    top: 20;
+    left: 20px;
+    top: 40px;
 }
 
 .dots{
@@ -205,7 +205,7 @@ i{
     position: relative;
 }
 
-.services-info h4{
+.services h4{
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-size: 1.8rem;
